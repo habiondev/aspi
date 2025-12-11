@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xidmətlər — ASPI Consulting Engineers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> (+994 12) 595 11 30</span>
+                    <span><i class="fas fa-envelope"></i> info@aspi.az</span>
+                    <span><i class="fas fa-location-dot"></i> Bakı, Azərbaycan</span>
+                </div>
+            </div>
+        </div>
+        <div class="header-bar">
+            <div class="container header-grid">
+                <a href="index_az.html#home" class="brand"><img src="/aspilogo.png" alt="ASPI" class="brand-logo"></a>
+                <div class="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index_az.html#home" class="nav-link">Ana səhifə</a></li>
+                        <li class="nav-item"><a href="about_az.html" class="nav-link">Haqqımızda</a></li>
+                        <li class="nav-item"><a href="projects_az.html" class="nav-link">Layihələr</a></li>
+                        <li class="nav-item"><a href="news_az.html" class="nav-link">Xəbərlər</a></li>
+                        <li class="nav-item"><a href="contact_az.html" class="nav-link">Əlaqə</a></li>
+                    </ul>
+                    <div class="menu-actions">
+                        <a href="tel:+994125951130" class="btn btn-outline">Zəng</a>
+                        <a href="#contact-form" class="btn btn-primary">Təklif</a>
+                        <div class="lang-switch">
+                            <a href="#" class="lang-button"><i class="fas fa-globe"></i><span class="lang-current">AZ</span></a>
+                            <div class="lang-menu">
+                                <a href="#" data-lang="en"><span>English</span><span class="lang-code">EN</span></a>
+                                <a href="#" data-lang="az"><span>Azərbaycan</span><span class="lang-code">AZ</span></a>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <a href="tel:+994125951130" class="btn btn-outline btn-sm">Zəng</a>
+                    <a href="#contact-form" class="btn btn-primary btn-sm">Təklif</a>
+                    <div class="lang-switch">
+                        <a href="#" class="lang-button"><i class="fas fa-globe"></i><span class="lang-current">AZ</span></a>
+                        <div class="lang-menu">
+                            <a href="#" data-lang="en"><span>English</span><span class="lang-code">EN</span></a>
+                            <a href="#" data-lang="az"><span>Azərbaycan</span><span class="lang-code">AZ</span></a>
+                             
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-toggle"><span></span><span></span><span></span></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <section class="services-intro">
+            <div class="container">
+                <div class="section-header">
+                 <h2 class="section-title">Xidmətlərimiz</h2>
+                    <p class="section-subtitle">Davamlı inkişaf üçün mühəndislik və məsləhət həlləri</p>
+                </div>
+                <p class="services-lead">ASPI layihənin ideyadan icraya qədər hər mərhələsində müştəriləri dəstəkləyən peşəkar xidmətlərin geniş portfelini təqdim edir.</p>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="services-grid">
+                    <div class="service-card" id="green-energy">
+                        <div class="service-icon"><i class="fas fa-leaf"></i></div>
+                        <h3 class="service-title">Yaşıl Enerji</h3>
+                        <p class="service-description">Günəş, külək və digər bərpa olunan enerji infrastrukturu üzrə davamlı həllər.</p>
+                        <a href="#" class="service-link" data-modal="modal-green-energy">Daha ətraflı <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" id="water-environment">
+                        <div class="service-icon"><i class="fas fa-tint"></i></div>
+                        <h3 class="service-title">Su və Ətraf Mühitin Mühafizəsi</h3>
+                        <p class="service-description">Davamlı resurs idarəetməsi üçün inkişaf etmiş su təmizləmə və ekoloji həllər.</p>
+                        <a href="#" class="service-link" data-modal="modal-water-environment">Daha ətraflı <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" id="agriculture">
+                        <div class="service-icon"><i class="fas fa-seedling"></i></div>
+                        <h3 class="service-title">Kənd Təsərrüfatı və Kənd İnkişafı</h3>
+                        <p class="service-description">Ərzaq təhlükəsizliyi və kənd iqtisadiyyatını gücləndirən müasir infrastruktur və layihələr.</p>
+                        <a href="#" class="service-link" data-modal="modal-agriculture">Daha ətraflı <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" id="energy-industrial">
+                        <div class="service-icon"><i class="fas fa-industry"></i></div>
+                        <h3 class="service-title">Enerji və Sənaye İnkişafı</h3>
+                        <p class="service-description">İqtisadi artım üçün enerji infrastrukturu və sənaye obyektlərinin kompleks inkişafı.</p>
+                        <a href="#" class="service-link" data-modal="modal-energy-industrial">Daha ətraflı <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-map"></i></div>
+                        <h3 class="service-title">Sahə Ölçmələri və Xəritələmə</h3>
+                        <p class="service-description">Dəqiq ölçmə və geohəritələmə xidmətləri ilə etibarlı dizayn və tikinti.</p>
+                        <a href="#" class="service-link" data-modal="modal-survey-mapping">Daha ətraflı <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-city"></i></div>
+                        <h3 class="service-title">Baş Planlaşdırma</h3>
+                        <p class="service-description">Maraqlı tərəflərin məqsədlərinə uyğun uzunmüddətli şəhər və sənaye planlaşdırması.</p>
+                        <a href="#" class="service-link" data-modal="modal-master-planning">Daha ətraflı <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-clipboard-check"></i></div>
+                        <h3 class="service-title">Texniki-iqtisadi əsaslandırma</h3>
+                        <p class="service-description">Layihənin həyata keçirilə bilməsi üçün detallı TİƏ və iqtisadi analiz.</p>
+                        <a href="#" class="service-link" data-modal="modal-feasibility">Daha ətraflı <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services-extra">
+            <div class="container">
+                <div class="services-extra-title">ASPI Consulting Engineers, Inc. aşağıdakı strateji sahələri əhatə edən inteqrə olunmuş məsləhət və mühəndislik portfeli təqdim edir</div>
+                <ul class="services-list">
+                    <li><i class="fas fa-angle-right"></i><span>Enerji və sənaye inkişafı</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>İstismar və texniki xidmət təlimləri, yeni texnologiyaların tətbiqi</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Geodeziya, topoqrafiya, hidroqrafiya və ölçmə işləri</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Baş planlaşdırma və TİƏ</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Hidrologiya, geologiya və topoqrafik tədqiqatlar</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Tender/ müqavilə sənədləri, layihə idarəetməsi və nəzarət</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Sektor və regional planlaşdırma</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Sənaye və mülki tikinti</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>İqtisadi və maliyyə təhlili</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Tarif və marketinq layihələri</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>İqtisadi islahatlar və investisiyalar</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Sosial və ekoloji qiymətləndirmələr</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Su təchizatı və kanalizasiya</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Suvarma, meşə təsərrüfatı, balıqçılıq</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Kənd təsərrüfatı və aqrobiznes</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Suvarma və drenaj</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Texniki yardım</span></li>
+                </ul>
+                <div class="services-slogan">Məqsədlərinizdən ilham alırıq, təcrübəmizlə mükəmməlləşdiririk!</div>
+            </div>
+        </section>
+        <section class="service-process">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Xidmət Prosesi</h2>
+                    <p class="section-subtitle">İdeyadan nəticəyə gedən addımlar</p>
+                </div>
+                <div class="vertical-process">
+                    <div class="vp-line"></div>
+                    <div class="vp-line-fill"></div>
+                    <div class="vp-step">
+                        <div class="vp-dot"></div>
+                        <div class="vp-card">
+                            <div class="vp-step-header">
+                                <div class="vp-step-icon"><i class="fas fa-compass"></i></div>
+                                <div class="vp-step-title">Kəşf</div>
+                            </div>
+                            <h3 class="vp-title">Maraqlı tərəflər və sahənin qiymətləndirilməsi</h3>
+                            <p class="vp-description">Tələbləri toplayır, məhdudiyyətləri qiymətləndirir və ölçülə bilən nəticələri müəyyənləşdiririk.</p>
+                        </div>
+                    </div>
+                    <div class="vp-step">
+                        <div class="vp-dot"></div>
+                        <div class="vp-card">
+                            <div class="vp-step-header">
+                                <div class="vp-step-icon"><i class="fas fa-chart-line"></i></div>
+                                <div class="vp-step-title">Mümkünlük</div>
+                            </div>
+                            <h3 class="vp-title">Texniki və maliyyə təhlili</h3>
+                            <p class="vp-description">Ssenariləri modelləşdirir, tənzimləmələri analiz edir və qərarlardakı riskləri azaldırıq.</p>
+                        </div>
+                    </div>
+                    <div class="vp-step">
+                        <div class="vp-dot"></div>
+                        <div class="vp-card">
+                            <div class="vp-step-header">
+                                <div class="vp-step-icon"><i class="fas fa-drafting-compass"></i></div>
+                                <div class="vp-step-title">Dizayn</div>
+                            </div>
+                            <h3 class="vp-title">Mühəndislik və baş planlaşdırma</h3>
+                            <p class="vp-description">KPİ-lərə uyğun detallı dizaynlar, planlar və satınalma paketləri hazırlayırıq.</p>
+                        </div>
+                    </div>
+                    <div class="vp-step">
+                        <div class="vp-dot"></div>
+                        <div class="vp-card">
+                            <div class="vp-step-header">
+                                <div class="vp-step-icon"><i class="fas fa-tools"></i></div>
+                                <div class="vp-step-title">İcra</div>
+                            </div>
+                            <h3 class="vp-title">Tikinti və istismara verilmə</h3>
+                            <p class="vp-description">İcra, QA/QC və istismara vermə prosesini təhlükəsizlik və müddət nəzarəti ilə idarə edirik.</p>
+                        </div>
+                    </div>
+                    <div class="vp-step">
+                        <div class="vp-dot"></div>
+                        <div class="vp-card">
+                            <div class="vp-step-header">
+                                <div class="vp-step-icon"><i class="fas fa-chart-bar"></i></div>
+                                <div class="vp-step-title">Monitorinq</div>
+                            </div>
+                            <h3 class="vp-title">Performans və davamlılıq</h3>
+                            <p class="vp-description">Performansı izləyir, əməliyyatları optimallaşdırır və uzunmüddətli davamlılığı təmin edirik.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Service Modals (copied structure) -->
+    
+    <div id="modal-green-energy" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body">
+                    <h2 class="service-modal-title">Yaşıl Enerji</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-solar-panel"></i> Günəş PV dizaynı və optimallaşdırma</li>
+                        <li><i class="fas fa-wind"></i> Külək resurslarının qiymətləndirilməsi və yerləşdirmə</li>
+                        <li><i class="fas fa-bolt"></i> Şəbəkəyə inteqrasiya və saxlama sistemləri</li>
+                        <li><i class="fas fa-network-wired"></i> Mikroixtisaslar və hibrid sistemlər</li>
+                        <li><i class="fas fa-file-alt"></i> TİƏ, icazələr və EPC nəzarəti</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">500 MW+</span><span class="metric-label">Layihələndirilmiş güc</span></div>
+                        <div class="metric"><span class="metric-number">30%</span><span class="metric-label">Məhsuldarlıq artımı</span></div>
+                        <div class="metric"><span class="metric-number">15+</span><span class="metric-label">Ölkələr</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Utility%20scale%20solar%20PV%20farm%2C%20rows%20of%20panels%2C%20engineering%20site%20photography&image_size=landscape_4_3" alt="Solar PV Farm"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Modern%20wind%20turbines%20on%20ridgeline%2C%20wind%20farm%2C%20engineering%20photography&image_size=landscape_4_3" alt="Wind Farm"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Battery%20energy%20storage%20system%20BESS%2C%20containers%2C%20industrial%20yard%2C%20engineering%20photography&image_size=landscape_4_3" alt="Energy Storage"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="green-energy">Layihəyə başla</a></div>
+        </div>
+    </div>
+
+    <!-- Copy other service modals from index.html as-is for consistency -->
+    <div id="modal-water-environment" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body"><h2 class="service-modal-title">Su və Ətraf Mühitin Mühafizəsi</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-tint"></i> Su təchizatı və paylama şəbəkələri</li>
+                        <li><i class="fas fa-industry"></i> Çirkab suların təmizlənməsi qurğularının dizaynı</li>
+                        <li><i class="fas fa-recycle"></i> Şlamın idarə edilməsi və təkrar istifadəsi</li>
+                        <li><i class="fas fa-leaf"></i> EİA, monitorinq və hesabatlılıq</li>
+                        <li><i class="fas fa-shield-alt"></i> Standartlar, auditlər və bərpa tədbirləri</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">500k+</span><span class="metric-label">Əhatə olunan əhali</span></div>
+                        <div class="metric"><span class="metric-number">ISO</span><span class="metric-label">9001/14001</span></div>
+                        <div class="metric"><span class="metric-number">99.9%</span><span class="metric-label">Uyğunluq</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Water%20treatment%20plant%20clarifiers%2C%20industrial%20facility%2C%20engineering%20photography&image_size=landscape_4_3" alt="Clarifiers"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Potable%20water%20distribution%20pipeline%20installation%2C%20construction%20site&image_size=landscape_4_3" alt="Water Pipeline"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Environmental%20monitoring%20station%2C%20field%20equipment%2C%20engineers%20sampling&image_size=landscape_4_3" alt="Environmental Monitoring"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="water-environment">Təklif sorğusu</a></div>
+        </div>
+    </div>
+
+    <div id="modal-agriculture" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body"><h2 class="service-modal-title">Kənd Təsərrüfatı və Kənd İnkişafı</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-water"></i> Suvarma kanalları, nasoslama və idarəetmə</li>
+                        <li><i class="fas fa-warehouse"></i> Saxlama və məhsul sonrası obyektlər</li>
+                        <li><i class="fas fa-road"></i> Kənd yolları və logistika planlaşdırması</li>
+                        <li><i class="fas fa-users"></i> İcma kommunal xidmətləri və potensialın artırılması</li>
+                        <li><i class="fas fa-chart-line"></i> Proqram qiymətləndirilməsi və KPI izləmə</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">120k ha</span><span class="metric-label">Suvarılan ərazi</span></div>
+                        <div class="metric"><span class="metric-number">1.8x</span><span class="metric-label">Məhsuldarlıq artımı</span></div>
+                        <div class="metric"><span class="metric-number">500+</span><span class="metric-label">Obyektlər</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Irrigation%20canal%20construction%2C%20concrete%20lining%2C%20engineering%20site&image_size=landscape_4_3" alt="Irrigation Canal"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Grain%20storage%20silos%2C%20agricultural%20facility%2C%20engineering%20photography&image_size=landscape_4_3" alt="Storage Silos"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Rural%20road%20upgrade%2C%20construction%20equipment%2C%20engineering%20photography&image_size=landscape_4_3" alt="Rural Road"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="agriculture">Müzakirə edin</a></div>
+        </div>
+    </div>
+
+    <div id="modal-energy-industrial" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body"><h2 class="service-modal-title">Enerji və Sənaye İnkişafı</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-plug"></i> İstehsal üzrə TİƏ və konsept dizayn</li>
+                        <li><i class="fas fa-bolt"></i> Yarımstansiyalar və ötürmə sistemləri</li>
+                        <li><i class="fas fa-industry"></i> Sənaye sahəsinin inkişafı və kommunal infrastrukturu</li>
+                        <li><i class="fas fa-hard-hat"></i> HSE sistemləri və uyğunluq</li>
+                        <li><i class="fas fa-tasks"></i> EPC idarəetməsi və istismara verilmə</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">50+</span><span class="metric-label">Obyektlər</span></div>
+                        <div class="metric"><span class="metric-number">99.5%</span><span class="metric-label">İşləmə vaxtı</span></div>
+                        <div class="metric"><span class="metric-number">Tier</span><span class="metric-label">Standartlar</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Power%20plant%20turbine%20hall%2C%20industrial%20facility%2C%20engineering%20photography&image_size=landscape_4_3" alt="Turbine Hall"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Electrical%20substation%2C%20transformers%20and%20switchgear%2C%20engineering%20photography&image_size=landscape_4_3" alt="Substation"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Industrial%20site%20utilities%2C%20piping%20and%20equipment%2C%20engineering%20photography&image_size=landscape_4_3" alt="Industrial Utilities"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="energy-industrial">Ətraflı məlumat</a></div>
+        </div>
+    </div>
+
+    <div id="modal-survey-mapping" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body"><h2 class="service-modal-title">Sahə Ölçmələri və Xəritələmə</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-map"></i> Topoqrafik və kadastr ölçmələri</li>
+                        <li><i class="fas fa-satellite"></i> UAV fotogrammetriya və LiDAR</li>
+                        <li><i class="fas fa-globe"></i> GIS xəritələmə və məkan analizi</li>
+                        <li><i class="fas fa-drafting-compass"></i> As-built və nəzarət şəbəkələri</li>
+                        <li><i class="fas fa-database"></i> Məlumat QA/QC və sənədləşmə</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">2cm</span><span class="metric-label">Dəqiqlik</span></div>
+                        <div class="metric"><span class="metric-number">300+</span><span class="metric-label">Sahələr</span></div>
+                        <div class="metric"><span class="metric-number">GIS</span><span class="metric-label">Çatdırılmalar</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Surveying%20team%20with%20total%20station%20and%20GPS%2C%20field%20work&image_size=landscape_4_3" alt="Surveying Team"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Drone%20mapping%20mission%20over%20construction%20site%2C%20UAV%20photogrammetry&image_size=landscape_4_3" alt="UAV Mapping"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=GIS%20workstation%20with%20maps%20and%20spatial%20analysis%20on%20screen&image_size=landscape_4_3" alt="GIS Analysis"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="other">Ölçmə sifariş edin</a></div>
+        </div>
+    </div>
+
+    <div id="modal-master-planning" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body"><h2 class="service-modal-title">Baş Planlaşdırma</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-city"></i> Şəhər planlaşdırması və zonalaşma çərçivələri</li>
+                        <li><i class="fas fa-road"></i> Nəqliyyat koridorları və mobillik planları</li>
+                        <li><i class="fas fa-water"></i> Kommunal tutum, mərhələlilik və dayanıqlılıq</li>
+                        <li><i class="fas fa-seedling"></i> Davamlılıq hədəfləri və KPİ-lər</li>
+                        <li><i class="fas fa-file-alt"></i> Maraqlı tərəflərin cəlbi və təsdiqlər</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">25+</span><span class="metric-label">Baş planlar</span></div>
+                        <div class="metric"><span class="metric-number">10–20y</span><span class="metric-label">Yanaşma müddətləri</span></div>
+                        <div class="metric"><span class="metric-number">KPIs</span><span class="metric-label">İzlənən</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Urban%20masterplan%20render%2C%20streets%20and%20zoning%20map%2C%20planning%20desk&image_size=landscape_4_3" alt="Urban Plan"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Industrial%20park%20masterplan%20layout%2C%20utilities%20and%20roads%2C%20engineering&image_size=landscape_4_3" alt="Industrial Plan"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Transport%20network%20schematics%2C%20corridors%20and%20mobility%20map&image_size=landscape_4_3" alt="Transport Map"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="other">Planlamaya başla</a></div>
+        </div>
+    </div>
+
+    <div id="modal-feasibility" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body"><h2 class="service-modal-title">Texniki-iqtisadi əsaslandırma</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-chart-line"></i> Tələb və artım proqnozları</li>
+                        <li><i class="fas fa-coins"></i> Maliyyə modelləri və həssaslıq</li>
+                        <li><i class="fas fa-exclamation-triangle"></i> Risklərin qiymətləndirilməsi və azaldılması</li>
+                        <li><i class="fas fa-balance-scale"></i> Tənzimləmə və icazələrin analizi</li>
+                        <li><i class="fas fa-clipboard-check"></i> İcra xəritəsi</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">100+</span><span class="metric-label">Araşdırmalar</span></div>
+                        <div class="metric"><span class="metric-number">ROI</span><span class="metric-label">Optimallaşdırma</span></div>
+                        <div class="metric"><span class="metric-number">Risk</span><span class="metric-label">Azaldılıb</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Analyst%20desk%20with%20charts%20and%20reports%2C%20feasibility%20study%20work&image_size=landscape_4_3" alt="Analysis"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Engineering%20site%20visit%20and%20risk%20assessment%2C%20team%20inspection&image_size=landscape_4_3" alt="Risk Assessment"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Financial%20models%20and%20sensitivity%20analysis%20on%20screen&image_size=landscape_4_3" alt="Financial Models"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="other">Araşdırma sorğusu</a></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo"><div class="logo"><img width="50%" src="/aspilogo.png" alt=""></div></div>
+                    <p class="footer-description">1996-cı ildən dünya üzrə yüksək səviyyəli mühəndislik və məsləhət xidmətləri təqdim edirik.</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> (+994 12) 595 11 30</p>
+                        <p><i class="fas fa-envelope"></i> info@aspi.az</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Bakı, Azərbaycan</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Sürətli keçidlər</h3>
+                    <ul class="footer-links">
+                        <li><a href="index_az.html#home">Ana səhifə</a></li>
+                        <li><a href="about_az.html">Haqqımızda</a></li>
+                        <li><a href="projects_az.html">Layihələr</a></li>
+                        <li><a href="news_az.html">Xəbərlər</a></li>
+                        <li><a href="contact_az.html">Əlaqə</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footer-bottom"><div class="footer-bottom-content"><p>&copy; 2025 ASPI Consulting Engineers, Inc. Bütün hüquqlar qorunur.</p></div></div>
+        </div>
+    </footer>
+
+    <div id="contact-form" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form class="contact-form">
+                <div class="form-group"><label for="name">Tam ad</label><input type="text" id="name" name="name" required></div>
+                <div class="form-group"><label for="email">E-poçt</label><input type="email" id="email" name="email" required></div>
+                <div class="form-group"><label for="phone">Telefon</label><input type="tel" id="phone" name="phone"></div>
+                <div class="form-group"><label for="company">Şirkət/Təşkilat</label><input type="text" id="company" name="company"></div>
+                <div class="form-group"><label for="service">Maraqlandığınız xidmət</label>
+                    <select id="service" name="service">
+                        <option value="">Xidməti seçin</option>
+                        <option value="green-energy">Yaşıl Enerji</option>
+                        <option value="water-environment">Su və Ətraf Mühit</option>
+                        <option value="agriculture">Kənd Təsərrüfatı və Kənd İnkişafı</option>
+                        <option value="energy-industrial">Enerji və Sənaye İnkişafı</option>
+                        <option value="other">Digər</option>
+                    </select></div>
+                <div class="form-group"><label for="message">Mesaj</label><textarea id="message" name="message" rows="5" required></textarea></div>
+                <button type="submit" class="btn btn-primary">Mesajı göndər</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

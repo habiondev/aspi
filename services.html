@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services — ASPI Consulting Engineers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> (+994 12) 595 11 30</span>
+                    <span><i class="fas fa-envelope"></i> info@aspi.az</span>
+                    <span><i class="fas fa-location-dot"></i> Baku, Azerbaijan</span>
+                </div>
+            </div>
+        </div>
+        <div class="header-bar">
+            <div class="container header-grid">
+                <a href="index.html#home" class="brand"><img src="/aspilogo.png" alt="ASPI" class="brand-logo"></a>
+                <div class="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                        <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="news.html" class="nav-link">News</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                    <div class="menu-actions">
+                        <a href="tel:+994125951130" class="btn btn-outline">Call Us</a>
+                        <a href="#contact-form" class="btn btn-primary">Get a Quote</a>
+                        <div class="lang-switch">
+                            <a href="#" class="lang-button"><i class="fas fa-globe"></i><span class="lang-current">EN</span></a>
+                            <div class="lang-menu">
+                                <a href="#" data-lang="en"><span>English</span><span class="lang-code">EN</span></a>
+                                <a href="#" data-lang="az"><span>Azərbaycan</span><span class="lang-code">AZ</span></a>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <a href="tel:+994125951130" class="btn btn-outline btn-sm">Call Us</a>
+                    <a href="#contact-form" class="btn btn-primary btn-sm">Get a Quote</a>
+                    <div class="lang-switch">
+                        <a href="#" class="lang-button"><i class="fas fa-globe"></i><span class="lang-current">EN</span></a>
+                        <div class="lang-menu">
+                            <a href="#" data-lang="en"><span>English</span><span class="lang-code">EN</span></a>
+                            <a href="#" data-lang="az"><span>Azərbaycan</span><span class="lang-code">AZ</span></a>
+                             
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-toggle"><span></span><span></span><span></span></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <section class="services-intro">
+            <div class="container">
+                <div class="section-header">
+                 <h2 class="section-title">Our Services</h2>
+                    <p class="section-subtitle">Comprehensive Engineering and Consulting Solutions for Sustainable Development</p>
+                </div>
+                <p class="services-lead">ASPI provides an extensive portfolio of professional services designed to support clients through every stage of their project – from concept to completion.</p>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="services-grid">
+                    <div class="service-card" id="green-energy">
+                        <div class="service-icon"><i class="fas fa-leaf"></i></div>
+                        <h3 class="service-title">Green Energy</h3>
+                        <p class="service-description">Sustainable energy solutions including solar, wind, and renewable energy infrastructure development for a cleaner future.</p>
+                        <a href="#" class="service-link" data-modal="modal-green-energy">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" id="water-environment">
+                        <div class="service-icon"><i class="fas fa-tint"></i></div>
+                        <h3 class="service-title">Water & Environmental Protection</h3>
+                        <p class="service-description">Advanced water treatment systems and environmental protection solutions for sustainable resource management.</p>
+                        <a href="#" class="service-link" data-modal="modal-water-environment">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" id="agriculture">
+                        <div class="service-icon"><i class="fas fa-seedling"></i></div>
+                        <h3 class="service-title">Agriculture & Rural Development</h3>
+                        <p class="service-description">Modern agricultural infrastructure and rural development projects to enhance food security and rural economies.</p>
+                        <a href="#" class="service-link" data-modal="modal-agriculture">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" id="energy-industrial">
+                        <div class="service-icon"><i class="fas fa-industry"></i></div>
+                        <h3 class="service-title">Energy & Industrial Development</h3>
+                        <p class="service-description">Comprehensive energy infrastructure and industrial facility development for economic growth and modernization.</p>
+                        <a href="#" class="service-link" data-modal="modal-energy-industrial">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-map"></i></div>
+                        <h3 class="service-title">Site Surveying & Mapping</h3>
+                        <p class="service-description">Precise surveying and geospatial mapping services for reliable design and construction.</p>
+                        <a href="#" class="service-link" data-modal="modal-survey-mapping">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-city"></i></div>
+                        <h3 class="service-title">Master Planning</h3>
+                        <p class="service-description">Long-term urban and industrial planning frameworks aligned with stakeholder goals.</p>
+                        <a href="#" class="service-link" data-modal="modal-master-planning">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-clipboard-check"></i></div>
+                        <h3 class="service-title">Feasibility Studies</h3>
+                        <p class="service-description">Comprehensive feasibility studies and economic analysis to ensure project viability and success.</p>
+                        <a href="#" class="service-link" data-modal="modal-feasibility">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services-extra">
+            <div class="container">
+                <div class="services-extra-title">ASPI Consulting Engineers, Inc. provides an integrated portfolio of consulting and engineering solutions covering the following strategic sectors</div>
+                <ul class="services-list">
+                    <li><i class="fas fa-angle-right"></i><span>Energy and Industrial Development</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Operation and Maintenance Trainings and Distribution of New Technologies</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Geodesical, Topographical, Hydrographical and Surveying Works</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Master Planning & Feasibility Studies</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Hydrological, Geological and Topographical Surveys</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Tender and Contract Documentation, Project Management and Supervision</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Sector and Regional Planning</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Industrial and Civil Construction</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Economical and Financial Analysis</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Tariff and Marketing Projects</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Economic Reforms and Investments</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Social and Environmental Assessments</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Water Supply and Sewerage</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Irrigation, Forestry, Fishery</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Agriculture and Agribusiness</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Irrigation and Drainage</span></li>
+                    <li><i class="fas fa-angle-right"></i><span>Technical Assistance</span></li>
+                </ul>
+                <div class="services-slogan">Driven by your goals, Refined by our expertise!</div>
+            </div>
+        </section>
+        <section class="service-process">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Service Road</h2>
+                    <p class="section-subtitle">How we move from idea to impact</p>
+                </div>
+                <div class="vertical-process">
+                    <div class="vp-line"></div>
+                    <div class="vp-line-fill"></div>
+                    <div class="vp-step">
+                        <div class="vp-dot"></div>
+                        <div class="vp-card">
+                            <div class="vp-step-header">
+                                <div class="vp-step-icon"><i class="fas fa-compass"></i></div>
+                                <div class="vp-step-title">Discovery</div>
+                            </div>
+                            <h3 class="vp-title">Stakeholder & Site Assessment</h3>
+                            <p class="vp-description">We gather requirements, evaluate constraints, and define measurable outcomes with stakeholders.</p>
+                        </div>
+                    </div>
+                    <div class="vp-step">
+                        <div class="vp-dot"></div>
+                        <div class="vp-card">
+                            <div class="vp-step-header">
+                                <div class="vp-step-icon"><i class="fas fa-chart-line"></i></div>
+                                <div class="vp-step-title">Feasibility</div>
+                            </div>
+                            <h3 class="vp-title">Technical & Financial Analysis</h3>
+                            <p class="vp-description">We model scenarios, analyze regulations, and de‑risk decisions before commitment.</p>
+                        </div>
+                    </div>
+                    <div class="vp-step">
+                        <div class="vp-dot"></div>
+                        <div class="vp-card">
+                            <div class="vp-step-header">
+                                <div class="vp-step-icon"><i class="fas fa-drafting-compass"></i></div>
+                                <div class="vp-step-title">Design</div>
+                            </div>
+                            <h3 class="vp-title">Engineering & Master Planning</h3>
+                            <p class="vp-description">We produce detailed designs, plans, and procurement packages aligned to KPIs.</p>
+                        </div>
+                    </div>
+                    <div class="vp-step">
+                        <div class="vp-dot"></div>
+                        <div class="vp-card">
+                            <div class="vp-step-header">
+                                <div class="vp-step-icon"><i class="fas fa-tools"></i></div>
+                                <div class="vp-step-title">Delivery</div>
+                            </div>
+                            <h3 class="vp-title">Construction & Commissioning</h3>
+                            <p class="vp-description">We manage execution, QA/QC, and commissioning with safety and schedule control.</p>
+                        </div>
+                    </div>
+                    <div class="vp-step">
+                        <div class="vp-dot"></div>
+                        <div class="vp-card">
+                            <div class="vp-step-header">
+                                <div class="vp-step-icon"><i class="fas fa-chart-bar"></i></div>
+                                <div class="vp-step-title">Monitoring</div>
+                            </div>
+                            <h3 class="vp-title">Performance & Sustainability</h3>
+                            <p class="vp-description">We track performance, optimize operations, and ensure long‑term sustainability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Service Modals (copied structure) -->
+    
+    <div id="modal-green-energy" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body">
+                    <h2 class="service-modal-title">Green Energy</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-solar-panel"></i> Solar PV design and optimization</li>
+                        <li><i class="fas fa-wind"></i> Wind resource assessment and siting</li>
+                        <li><i class="fas fa-bolt"></i> Grid integration and storage systems</li>
+                        <li><i class="fas fa-network-wired"></i> Microgrids and hybrid systems</li>
+                        <li><i class="fas fa-file-alt"></i> Feasibility, permitting, EPC oversight</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">500 MW+</span><span class="metric-label">Designed capacity</span></div>
+                        <div class="metric"><span class="metric-number">30%</span><span class="metric-label">Yield improvements</span></div>
+                        <div class="metric"><span class="metric-number">15+</span><span class="metric-label">Countries</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Utility%20scale%20solar%20PV%20farm%2C%20rows%20of%20panels%2C%20engineering%20site%20photography&image_size=landscape_4_3" alt="Solar PV Farm"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Modern%20wind%20turbines%20on%20ridgeline%2C%20wind%20farm%2C%20engineering%20photography&image_size=landscape_4_3" alt="Wind Farm"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Battery%20energy%20storage%20system%20BESS%2C%20containers%2C%20industrial%20yard%2C%20engineering%20photography&image_size=landscape_4_3" alt="Energy Storage"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="green-energy">Start a Project</a></div>
+        </div>
+    </div>
+
+    <!-- Copy other service modals from index.html as-is for consistency -->
+    <div id="modal-water-environment" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body"><h2 class="service-modal-title">Water & Environmental Protection</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-tint"></i> Water supply and distribution networks</li>
+                        <li><i class="fas fa-industry"></i> Wastewater treatment plant design</li>
+                        <li><i class="fas fa-recycle"></i> Sludge management and reuse</li>
+                        <li><i class="fas fa-leaf"></i> EIA, monitoring, and reporting</li>
+                        <li><i class="fas fa-shield-alt"></i> Standards, audits, and remediation</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">500k+</span><span class="metric-label">Residents served</span></div>
+                        <div class="metric"><span class="metric-number">ISO</span><span class="metric-label">9001/14001</span></div>
+                        <div class="metric"><span class="metric-number">99.9%</span><span class="metric-label">Compliance</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Water%20treatment%20plant%20clarifiers%2C%20industrial%20facility%2C%20engineering%20photography&image_size=landscape_4_3" alt="Clarifiers"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Potable%20water%20distribution%20pipeline%20installation%2C%20construction%20site&image_size=landscape_4_3" alt="Water Pipeline"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Environmental%20monitoring%20station%2C%20field%20equipment%2C%20engineers%20sampling&image_size=landscape_4_3" alt="Environmental Monitoring"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="water-environment">Request Proposal</a></div>
+        </div>
+    </div>
+
+    <div id="modal-agriculture" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body"><h2 class="service-modal-title">Agriculture & Rural Development</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-water"></i> Irrigation canals, pumping, and control</li>
+                        <li><i class="fas fa-warehouse"></i> Storage and post-harvest facilities</li>
+                        <li><i class="fas fa-road"></i> Rural roads and logistics planning</li>
+                        <li><i class="fas fa-users"></i> Community utilities and capacity building</li>
+                        <li><i class="fas fa-chart-line"></i> Program evaluation and KPI tracking</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">120k ha</span><span class="metric-label">Irrigated area</span></div>
+                        <div class="metric"><span class="metric-number">1.8x</span><span class="metric-label">Yield uplift</span></div>
+                        <div class="metric"><span class="metric-number">500+</span><span class="metric-label">Facilities</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Irrigation%20canal%20construction%2C%20concrete%20lining%2C%20engineering%20site&image_size=landscape_4_3" alt="Irrigation Canal"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Grain%20storage%20silos%2C%20agricultural%20facility%2C%20engineering%20photography&image_size=landscape_4_3" alt="Storage Silos"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Rural%20road%20upgrade%2C%20construction%20equipment%2C%20engineering%20photography&image_size=landscape_4_3" alt="Rural Road"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="agriculture">Discuss Scope</a></div>
+        </div>
+    </div>
+
+    <div id="modal-energy-industrial" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body"><h2 class="service-modal-title">Energy & Industrial Development</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-plug"></i> Generation feasibility and concept design</li>
+                        <li><i class="fas fa-bolt"></i> Substations and transmission systems</li>
+                        <li><i class="fas fa-industry"></i> Industrial site development and utilities</li>
+                        <li><i class="fas fa-hard-hat"></i> HSE systems and compliance</li>
+                        <li><i class="fas fa-tasks"></i> EPC management and commissioning</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">50+</span><span class="metric-label">Facilities</span></div>
+                        <div class="metric"><span class="metric-number">99.5%</span><span class="metric-label">Uptime</span></div>
+                        <div class="metric"><span class="metric-number">Tier</span><span class="metric-label">Standards</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Power%20plant%20turbine%20hall%2C%20industrial%20facility%2C%20engineering%20photography&image_size=landscape_4_3" alt="Turbine Hall"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Electrical%20substation%2C%20transformers%20and%20switchgear%2C%20engineering%20photography&image_size=landscape_4_3" alt="Substation"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Industrial%20site%20utilities%2C%20piping%20and%20equipment%2C%20engineering%20photography&image_size=landscape_4_3" alt="Industrial Utilities"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="energy-industrial">Get Details</a></div>
+        </div>
+    </div>
+
+    <div id="modal-survey-mapping" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body"><h2 class="service-modal-title">Site Surveying & Mapping</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-map"></i> Topographic and cadastral surveys</li>
+                        <li><i class="fas fa-satellite"></i> UAV photogrammetry and LiDAR</li>
+                        <li><i class="fas fa-globe"></i> GIS mapping and spatial analysis</li>
+                        <li><i class="fas fa-drafting-compass"></i> As-built and control networks</li>
+                        <li><i class="fas fa-database"></i> Data QA/QC and documentation</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">2cm</span><span class="metric-label">Accuracy</span></div>
+                        <div class="metric"><span class="metric-number">300+</span><span class="metric-label">Sites</span></div>
+                        <div class="metric"><span class="metric-number">GIS</span><span class="metric-label">Deliverables</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Surveying%20team%20with%20total%20station%20and%20GPS%2C%20field%20work&image_size=landscape_4_3" alt="Surveying Team"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Drone%20mapping%20mission%20over%20construction%20site%2C%20UAV%20photogrammetry&image_size=landscape_4_3" alt="UAV Mapping"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=GIS%20workstation%20with%20maps%20and%20spatial%20analysis%20on%20screen&image_size=landscape_4_3" alt="GIS Analysis"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="other">Book a Survey</a></div>
+        </div>
+    </div>
+
+    <div id="modal-master-planning" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body"><h2 class="service-modal-title">Master Planning</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-city"></i> Urban planning and zoning frameworks</li>
+                        <li><i class="fas fa-road"></i> Transport corridors and mobility plans</li>
+                        <li><i class="fas fa-water"></i> Utilities capacity, phasing, and resilience</li>
+                        <li><i class="fas fa-seedling"></i> Sustainability targets and KPIs</li>
+                        <li><i class="fas fa-file-alt"></i> Stakeholder engagement and approvals</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">25+</span><span class="metric-label">Masterplans</span></div>
+                        <div class="metric"><span class="metric-number">10–20y</span><span class="metric-label">Horizons</span></div>
+                        <div class="metric"><span class="metric-number">KPIs</span><span class="metric-label">Tracked</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Urban%20masterplan%20render%2C%20streets%20and%20zoning%20map%2C%20planning%20desk&image_size=landscape_4_3" alt="Urban Plan"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Industrial%20park%20masterplan%20layout%2C%20utilities%20and%20roads%2C%20engineering&image_size=landscape_4_3" alt="Industrial Plan"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Transport%20network%20schematics%2C%20corridors%20and%20mobility%20map&image_size=landscape_4_3" alt="Transport Map"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="other">Start Planning</a></div>
+        </div>
+    </div>
+
+    <div id="modal-feasibility" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body"><h2 class="service-modal-title">Feasibility Studies</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-chart-line"></i> Demand and growth forecasting</li>
+                        <li><i class="fas fa-coins"></i> Financial models and sensitivity</li>
+                        <li><i class="fas fa-exclamation-triangle"></i> Risk assessment and mitigation</li>
+                        <li><i class="fas fa-balance-scale"></i> Regulatory and permitting analysis</li>
+                        <li><i class="fas fa-clipboard-check"></i> Implementation roadmap</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">100+</span><span class="metric-label">Studies</span></div>
+                        <div class="metric"><span class="metric-number">ROI</span><span class="metric-label">Optimization</span></div>
+                        <div class="metric"><span class="metric-number">Risk</span><span class="metric-label">Mitigated</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                    <div class="modal-slide active"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Analyst%20desk%20with%20charts%20and%20reports%2C%20feasibility%20study%20work&image_size=landscape_4_3" alt="Analysis"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Engineering%20site%20visit%20and%20risk%20assessment%2C%20team%20inspection&image_size=landscape_4_3" alt="Risk Assessment"></div>
+                    <div class="modal-slide"><img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Financial%20models%20and%20sensitivity%20analysis%20on%20screen&image_size=landscape_4_3" alt="Financial Models"></div>
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta"><a href="#contact-form" class="btn btn-primary" data-service="other">Request Study</a></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo"><div class="logo"><img width="50%" src="/aspilogo.png" alt=""></div></div>
+                    <p class="footer-description">Providing exceptional engineering and consulting services worldwide since 1996.</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> (+994 12) 595 11 30</p>
+                        <p><i class="fas fa-envelope"></i> info@aspi.az</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Baku, Azerbaijan</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footer-bottom"><div class="footer-bottom-content"><p>&copy; 2025 ASPI Consulting Engineers, Inc. All rights reserved.</p></div></div>
+        </div>
+    </footer>
+
+    <div id="contact-form" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form class="contact-form">
+                <div class="form-group"><label for="name">Full Name</label><input type="text" id="name" name="name" required></div>
+                <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" required></div>
+                <div class="form-group"><label for="phone">Phone Number</label><input type="tel" id="phone" name="phone"></div>
+                <div class="form-group"><label for="company">Company/Organization</label><input type="text" id="company" name="company"></div>
+                <div class="form-group"><label for="service">Service of Interest</label>
+                    <select id="service" name="service">
+                        <option value="">Select a service</option>
+                        <option value="green-energy">Green Energy</option>
+                        <option value="water-environment">Water & Environment</option>
+                        <option value="agriculture">Agriculture & Rural Development</option>
+                        <option value="energy-industrial">Energy & Industrial Development</option>
+                        <option value="other">Other</option>
+                    </select></div>
+                <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea></div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
