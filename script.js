@@ -323,9 +323,11 @@ contactLinks.forEach(link => {
 
 serviceLinks.forEach(link => {
     link.addEventListener('click', (e) => {
-        e.preventDefault();
         const id = link.dataset.modal;
-        if (id) openModalById(id);
+        if (id) {
+            e.preventDefault();
+            openModalById(id);
+        }
     });
 });
 

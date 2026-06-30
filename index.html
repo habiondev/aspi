@@ -35,11 +35,13 @@
 
                 <div class="nav-menu">
                     <ul class="nav-list">
-                        <li class="nav-item"><a href="/about.html" class="nav-link">About Us</a></li>
-                        <li class="nav-item"><a href="/services.html" class="nav-link">Services</a></li>
-                        <li class="nav-item"><a href="/projects.html" class="nav-link">Projects</a></li>
-                        <li class="nav-item"><a href="/news.html" class="nav-link">News</a></li>
-                        <li class="nav-item"><a href="/contact.html" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="index.html#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                        <li class="nav-item"><a href="ai_solutions.html" class="nav-link">AI Solutions</a></li>
+                        <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="news.html" class="nav-link">News</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                     </ul>
                     <div class="menu-actions">
                         <a href="tel:+994125951130" class="btn btn-outline">Call Us</a>
@@ -91,6 +93,20 @@
                     </div>
                 </div>
             </div>
+
+            <div class="slide" data-service="ai-solutions">
+                <div class="slide-bg">
+                    <img src="/Our_Customers/smart2.png" alt="AI Solutions & Technologies">
+                </div>
+                <div class="slide-content">
+                    <div class="container">
+                        <h1 class="slide-title">AI Solutions & Smart Technologies</h1>
+                        <p class="slide-description">Transforming infrastructure through Artificial Intelligence. We implement smart solutions for production management, industrial automation, and data-driven decision making.</p>
+                        <a href="ai_solutions.html" class="btn btn-primary">Explore AI Solutions</a>
+                    </div>
+                </div>
+            </div>
+
             <div class="slide" data-service="green-energy">
                 <div class="slide-bg">
                     <img src="https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=Modern%20solar%20panels%20and%20wind%20turbines%20in%20a%20clean%20landscape%2C%20professional%20engineering%20photography%2C%20bright%20blue%20sky%2C%20sustainable%20energy%20infrastructure&image_size=landscape_16_9" alt="Green Energy Solutions">
@@ -155,10 +171,11 @@
         
         <div class="slider-dots" role="tablist" aria-label="Hero slides">
             <button class="dot active" data-slide="0" role="tab" aria-label="ASPI Global Expertise"></button>
-            <button class="dot" data-slide="1" role="tab" aria-label="Green Energy"></button>
-            <button class="dot" data-slide="2" role="tab" aria-label="Water & Environmental Protection"></button>
-            <button class="dot" data-slide="3" role="tab" aria-label="Agriculture & Rural Development"></button>
-            <button class="dot" data-slide="4" role="tab" aria-label="Energy & Industrial Development"></button>
+            <button class="dot" data-slide="1" role="tab" aria-label="AI Solutions & Technologies"></button>
+            <button class="dot" data-slide="2" role="tab" aria-label="Green Energy"></button>
+            <button class="dot" data-slide="3" role="tab" aria-label="Water & Environmental Protection"></button>
+            <button class="dot" data-slide="4" role="tab" aria-label="Agriculture & Rural Development"></button>
+            <button class="dot" data-slide="5" role="tab" aria-label="Energy & Industrial Development"></button>
         </div>
     </section>
     
@@ -259,6 +276,15 @@ We combine engineering, management, innovation, and environmental standards to c
                     <h3 class="service-title">Green Energy</h3>
                     <p class="service-description">Sustainable energy solutions including solar, wind, and renewable energy infrastructure development for a cleaner future.</p>
                     <a href="#" class="service-link" data-modal="modal-green-energy">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" id="ai-solutions">
+                    <div class="service-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3 class="service-title">AI Solutions & Smart Technologies</h3>
+                    <p class="service-description">Innovative AI integration for infrastructure, smart production management, and industrial automation solutions.</p>
+                    <a href="ai_solutions.html" class="service-link" data-modal="modal-ai-solutions">Read More <i class="fas fa-arrow-right"></i></a>
                 </div>
                 
                 <div class="service-card" id="water-environment">
@@ -478,7 +504,7 @@ We combine engineering, management, innovation, and environmental standards to c
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
+            <div class="footer-grid">
                 <div class="footer-section">
                     <div class="footer-logo">
                         <div class="logo">
@@ -489,45 +515,37 @@ We combine engineering, management, innovation, and environmental standards to c
                         Providing exceptional engineering and consulting services worldwide since 1996.
                     </p>
                     <div class="footer-contact">
-                        <p><i class="fas fa-phone"></i> <a class="fasa" href="tel:+994125951130">(+994 12) 595 11 30</a></p>
-                        <p><i class="fas fa-envelope"></i> <a class="fasa" href="mailto:info@aspi.az">info@aspi.az</a></p>
-                        <p><i class="fas fa-map-marker-alt"></i> <a class="fasa" href="https://www.google.com/maps/place/Baku+City,+Azerbaijan" target="_blank">Baku, Azerbaijan</a></p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+994125951130">(+994 12) 595 11 30</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:info@aspi.az">info@aspi.az</a></p>
+                        <p><i class="fas fa-location-dot"></i> <a href="https://www.google.com/maps/place/Baku+City,+Azerbaijan" target="_blank">Baku, Azerbaijan</a></p>
                     </div>
                 </div>
                 
-                <!-- <div class="footer-section">
+                <div class="footer-section">
                     <h3 class="footer-title">Quick Links</h3>
                     <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Our Services</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#news">News</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="ai_solutions.html">AI Solutions</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
                     </ul>
-                </div> -->
+                </div>
                 
                 <div class="footer-section">
                     <h3 class="footer-title">Services</h3>
                     <ul class="footer-links">
-                        <li><a href="#green-energy">Green Energy</a></li>
-                        <li><a href="#water-environment">Water & Environment</a></li>
-                        <li><a href="#agriculture">Agriculture & Rural Development</a></li>
-                        <li><a href="#energy-industrial">Energy & Industrial Development</a></li>
-                        <li><a href="#">Site Surveying & Mapping</a></li>
-                        <li><a href="#">Master Planning</a></li>
-                        <li><a href="#">Feasibility Studies</a></li>
+                        <li><a href="services.html#green-energy">Green Energy</a></li>
+                        <li><a href="ai_solutions.html">AI Solutions</a></li>
+                        <li><a href="services.html#water-environment">Water & Environment</a></li>
+                        <li><a href="services.html#agriculture">Agriculture & Rural Development</a></li>
+                        <li><a href="services.html#energy-industrial">Energy & Industrial Development</a></li>
                     </ul>
                 </div>
-                
-                
             </div>
             
             <div class="footer-bottom">
-                <div class="footer-bottom-content">
-                    <p>&copy; 2025 ASPI Consulting Engineers, Inc. All rights reserved.</p>
-                    <!-- <p>Created by ASPI Digital Team</p> -->
-                </div>
+                <p>&copy; 2026 ASPI Consulting Engineers. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -722,6 +740,43 @@ We combine engineering, management, innovation, and environmental standards to c
             </div>
             <div class="service-modal-cta">
                 <a href="#contact-form" class="btn btn-primary" data-service="energy-industrial">Get Details</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-ai-solutions" class="modal">
+        <div class="modal-content service-modal">
+            <span class="close">&times;</span>
+            <div class="service-modal-grid">
+                <div class="service-modal-body"><h2 class="service-modal-title">AI Solutions & Smart Technologies</h2>
+                    <ul class="service-modal-list">
+                        <li><i class="fas fa-microchip"></i> Smart infrastructure integration & monitoring</li>
+                        <li><i class="fas fa-industry"></i> AI-driven production management systems</li>
+                        <li><i class="fas fa-robot"></i> Industrial automation and smart robotics</li>
+                        <li><i class="fas fa-chart-network"></i> Predictive maintenance and asset optimization</li>
+                        <li><i class="fas fa-database"></i> Data-driven decision support systems</li>
+                    </ul>
+                </div>
+                <div class="service-modal-aside">
+                    <div class="service-metrics">
+                        <div class="metric"><span class="metric-number">10+</span><span class="metric-label">AI Solutions</span></div>
+                        <div class="metric"><span class="metric-number">30%</span><span class="metric-label">Efficiency Gain</span></div>
+                        <div class="metric"><span class="metric-number">Smart</span><span class="metric-label">Industry 4.0</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-modal-slider">
+                <div class="modal-gallery">
+                           <div class="modal-slide active"><img src="/Our_Customers/smart3.jpg" alt="Digital Twin Infrastructure"></div>
+                    <div class="modal-slide"><img src="/Our_Customers/smart1.avif" alt="AI Control Center"></div>
+                    <div class="modal-slide"><img src="/Our_Customers/smart2.png" alt="Smart Automation"></div> 
+                </div>
+                <div class="modal-slider-nav"><button class="modal-prev"><i class="fas fa-chevron-left"></i></button><button class="modal-next"><i class="fas fa-chevron-right"></i></button></div>
+                <div class="modal-dots"><button class="dot active" data-slide="0"></button><button class="dot" data-slide="1"></button><button class="dot" data-slide="2"></button></div>
+            </div>
+            <div class="service-modal-cta">
+                <a href="ai_solutions.html" class="btn btn-primary">View Full Case Study</a>
+                <a href="#contact-form" class="btn btn-outline" data-service="ai-solutions">Implement AI</a>
             </div>
         </div>
     </div>
